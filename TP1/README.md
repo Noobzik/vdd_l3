@@ -142,5 +142,8 @@ print(iris.target_names)
 6.   Visualisez les nuages de points en 2D avec des couleurs corrspondant aux classes en utilisant toutes les combinaisons de variables
 
 ```python
-
+plt.figure()
+plt.scatter(iris.data[:,0],iris.data[:,1], c = iris.target)
+plt.scatter(iris.data[:,0],iris.data[:,2], c = iris.target)
 ```
+Il y a 6 manière de faire le plot (0-1 | 0-2 | 0-3 | 1-2 | 1-3 | 2-3).
