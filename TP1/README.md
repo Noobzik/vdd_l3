@@ -146,4 +146,4 @@ plt.figure()
 plt.scatter(iris.data[:,0],iris.data[:,1], c = iris.target)
 plt.scatter(iris.data[:,0],iris.data[:,2], c = iris.target)
 ```
-Il y a 6 manière de faire le plot (0-1 | 0-2 | 0-3 | 1-2 | 1-3 | 2-3).
+Il y a 6 manières de faire le plot (0-1 | 0-2 | 0-3 | 1-2 | 1-3 | 2-3).
