@@ -146,4 +146,18 @@ plt.figure()
 plt.scatter(iris.data[:,0],iris.data[:,1], c = iris.target)
 plt.scatter(iris.data[:,0],iris.data[:,2], c = iris.target)
 ```
-Il y a 6 manières de faire le plot (0-1 | 0-2 | 0-3 | 1-2 | 1-3 | 2-3).
+Il y a 6 manière de faire le plot (0-1 | 0-2 | 0-3 | 1-2 | 1-3 | 2-3).
+
+8. Analysez le manuel d’aide pour ces deux fonctions (pcaet lda) et appliquez les sur la base  Iris.  Il  faudra  utiliser pca.fit(Iris).transform(Iris)et  sauvegardez  les  résultats dans IrisPCA pour la PCA et IrisLDA pour la LDA
+
+```python
+from sklearn.decomposition import PCA
+from sklearn.lda import LDA
+import pandas as pd
+
+
+pca_iris = PCA(n_components =2)
+principalCompo_iris = pca_iris.fit_transform(iris.data)
+principal_iris_df = pd.DataFrame(data = principalCompo_iris, columns = ['PComponent 1','PC2'])
+#ça marche pas D:
+```
