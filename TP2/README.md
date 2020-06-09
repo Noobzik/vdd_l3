@@ -44,7 +44,7 @@ La projection isomap à réussi à regouper les points de nombres mais ce n'est 
 
 ![figure6](Figures/Figure_6.png)
 
-On a ici une intégration linéaire, mais 
+On a ici une intégration linéaire, mais
 
 
 ![figure7](Figures/Figure_7.png)
@@ -73,11 +73,27 @@ On a ici une intégration linéaire, mais
 # Exercice 2
 
 1. Download	the	Knime	software	with	all	the	pacakges	v3.0.0
-2. Load	the	Iris dataset	using	the	‘File	Reader’	node in	a	knime project	and	tests	
-use	several	nodes	as	Statistics	and	Plot	to	make	a	small	analysis	of	the	dataset.	
-3. Compute	 the	 Correlation	 using	 the	 ‘Linear	 Correlation’	 node	 and	 reduce	 the	
-dimension	 by	 using	 the	 ‘Correlation	 Filter’.	 Plot	 the	 data	 using	 the	 selected	
+2. Load	the	Iris dataset	using	the	‘File	Reader’	node in	a	knime project	and	tests
+use	several	nodes	as	Statistics	and	Plot	to	make	a	small	analysis	of	the	dataset.
+* histogramme du noeud "Statistics"
+
+![figure 1](Figures/histo.png)
+
+* Nuage de points
+
+![figure 2](Figures/scatterplot.png)
+
+3. Compute	 the	 Correlation	 using	 the	 ‘Linear	 Correlation’	 node	 and	 reduce	 the
+dimension	 by	 using	 the	 ‘Correlation	 Filter’.	 Plot	 the	 data	 using	 the	 selected
 variables.
-4. Use	 the	 PCA	 and	 MDS dimensional	 reduction	 techniques	 to	 reduce	 the	
-dimension	 of	 the	 data	 to	 2	 variables	 and	 plot	 the	 results.	 Make	 an	 analysis	
+4. Use	 the	 PCA	 and	 MDS dimensional	 reduction	 techniques	 to	 reduce	 the
+dimension	 of	 the	 data	 to	 2	 variables	 and	 plot	 the	 results.	 Make	 an	 analysis
 between	the	result	in	question	3	and those	obtained	here.
+
+* Voici le resultat pour le PCA
+
+![figure 3](Figures/pca.PNG)
+
+* Voici le resultat pour le MDS
+
+![figure 4](Figures/mds.PNG)
