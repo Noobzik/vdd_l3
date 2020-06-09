@@ -86,6 +86,9 @@ use	several	nodes	as	Statistics	and	Plot	to	make	a	small	analysis	of	the	dataset
 3. Compute	 the	 Correlation	 using	 the	 ‘Linear	 Correlation’	 node	 and	 reduce	 the
 dimension	 by	 using	 the	 ‘Correlation	 Filter’.	 Plot	 the	 data	 using	 the	 selected
 variables.
+
+AF
+
 4. Use	 the	 PCA	 and	 MDS dimensional	 reduction	 techniques	 to	 reduce	 the
 dimension	 of	 the	 data	 to	 2	 variables	 and	 plot	 the	 results.	 Make	 an	 analysis
 between	the	result	in	question	3	and those	obtained	here.
@@ -97,3 +100,5 @@ between	the	result	in	question	3	and those	obtained	here.
 * Voici le resultat pour le MDS
 
 ![figure 4](Figures/mds.PNG)
+
+On peut constater que la méthode MDS regroupe mieux certains point (notamment ceux proche de l'Axe X) par rapport a la méthode PCA.
