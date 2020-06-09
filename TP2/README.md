@@ -69,3 +69,15 @@ On a ici une intégration linéaire, mais
 
 
 ![figure14](Figures/Figure_14.png)
+
+# Exercice 2
+
+1. Download	the	Knime	software	with	all	the	pacakges	v3.0.0
+2. Load	the	Iris dataset	using	the	‘File	Reader’	node in	a	knime project	and	tests	
+use	several	nodes	as	Statistics	and	Plot	to	make	a	small	analysis	of	the	dataset.	
+3. Compute	 the	 Correlation	 using	 the	 ‘Linear	 Correlation’	 node	 and	 reduce	 the	
+dimension	 by	 using	 the	 ‘Correlation	 Filter’.	 Plot	 the	 data	 using	 the	 selected	
+variables.
+4. Use	 the	 PCA	 and	 MDS dimensional	 reduction	 techniques	 to	 reduce	 the	
+dimension	 of	 the	 data	 to	 2	 variables	 and	 plot	 the	 results.	 Make	 an	 analysis	
+between	the	result	in	question	3	and those	obtained	here.
