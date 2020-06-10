@@ -114,3 +114,13 @@ Valeur du barycentre :
 Représentation graphique du barycentre
 
 ![EX3_waveform_barycenter_chart.png](img/EX3_waveform_barycenter_chart.png)
+
+## Exercice 4 ##
+
+Voici le score du clustering :
+
+![EX4_clustering_score.png](img/EX4_clustering_score.png)
+
+Et voici le score du modèle avec la validation croisée :
+
+![EX4_modele_score.png](img/EX4_modele_score.png)
