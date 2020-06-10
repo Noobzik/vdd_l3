@@ -70,7 +70,8 @@ On a ici une intégration linéaire, mais
 
 ![figure14](Figures/Figure_14.png)
 
-# Exercice 2
+# Partie 2
+# Exercice 1
 
 1. Download	the	Knime	software	with	all	the	pacakges	v3.0.0
 2. Load	the	Iris dataset	using	the	‘File	Reader’	node in	a	knime project	and	tests
@@ -102,3 +103,52 @@ between	the	result	in	question	3	and those	obtained	here.
 ![figure 4](Figures/mds.PNG)
 
 On peut constater que la méthode MDS regroupe mieux certains point (notamment ceux proche de l'Axe X) par rapport a la méthode PCA.
+
+# Exercice 2
+
+* **Reading full small data set** : Read large data set from DB contained nodes
+
+* **Target Selection** : Selection: Allow to rename some columns and then select or them.
+
+* **Baseline Evaluation** : Choose the best algorithm between three
+classification algorithms: MLP, decision tree and Naïve Bayes.
+
+* **Reduction based on LDA** : Reduces the number of columns in the input data by linear discriminant analysis
+
+* **Auto Encoder based Reduction** : 
+
+* **Reduction based on t-SNE** : Create a probability distribution capturing the relationships between points in the high dimensional space and find a low dimensional space that resembles the probability dimension as well as possible
+
+* **Reduction based on High Corr.** :
+
+* **Tree Ensemble based Reduction** :
+
+* **Reduction based on PCA** : Reduce all values to those which are the most
+accurate for the PCA method.
+
+* **Row Sampling** :
+
+* **Column Splitter** : This node splits the columns of the input table into two
+output tables.
+
+* **Column Selection by Missing Values** : Remove columns with excessive
+values.
+
+* **Column Appender** :
+
+* **Backward Feature Elimination** : Elimine une par une les valeurs les moins
+pertinente en les comparants 2 par 2.
+
+* **Forward Feature Selection** : Elimine tout et récupère une par une les
+valeurs pertinente en les comparants 2 par 2.
+
+* **Joiner** : This node joins two tables in a database-like way.
+
+* **ROC Curve** : This node draws ROC curves for two-class classification
+problems.
+
+* **Positive class probabilities**
+
+* **Accuracies**
+
+* **Bar Chart** :
