@@ -12,7 +12,7 @@ Voici ce que nous obtenons avec le premier scatter plot
 
 ![figure 1](Figures/Exo2SP.PNG)
 
-Afin d'obtenir toutes les combinaison de paires pour le scatter plot nous devons utiliser le noeud "Scatter Matrix" ce qui nous permet d'obtenir les graphes suivant :
+Afin d'obtenir toutes les combinaisons de paires pour le scatter plot nous devons utiliser le noeud "Scatter Matrix" ce qui nous permet d'obtenir les graphes suivant :
 
 ![figure 2](Figures/MSP.PNG)
 
@@ -69,4 +69,15 @@ c) Voici le resultat avec PCA
 
 ![figure 9](Figures/clusterPCA.PNG)
 
-Dans la méthode Cluster+PCA nous remarquons que les données sont regroupées autour d'un centre alors qu'avec la méthode PCA seule les données sont regroupées par classes
+d) Dans la méthode Cluster+PCA nous remarquons que les données sont regroupées autour d'un centre alors qu'avec la méthode PCA seule les données sont regroupées par classes
+
+e)
+
+![figure 10](Figures/barycentre.PNG)
+
+Ci-dessus le nuage de point pour representer les barycentre
+Nous n'avons pas réussi à combiner les deux nuages de point afin de superposer les cluster et leurs barycentre respectif.
+
+![figure 11](Figures/bariris.PNG)
+
+Ci-dessus les barycentre de la base Iris.
