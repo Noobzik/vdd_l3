@@ -84,3 +84,33 @@ Pour la base de données iris, on a les données initiales suivantes.
 Méthode clustering :
 
 ![EX3_iris_clustering](img/EX3_iris_clustering.png)
+
+---
+
+Valeurs du barycentre :
+
+![EX3_iris_barycenter_value](img/EX3_iris_barycenter_value.png)
+
+---
+
+Représentation du barycentre
+
+![EX3_iris_barycenter_value](img/EX3_iris_barycenter_chart.png)
+
+
+Pour la base de donnée de waveform, on a les données initiales suivantes.
+
+![EX3_iris_init](img/EX3_waveform_init.png)
+---
+Méthode clustering
+![EX3_iris_clustering](img/EX3_waveform_clustering.png)
+---
+
+Valeur du barycentre :
+
+![EX3_iris_barycenter_value](img/EX3_iris_waveform_value.png)
+---
+
+Représentation graphique du barycentre
+
+![EX3_waveform_barycenter_chart.png](img/EX3_waveform_barycenter_chart.png)
