@@ -115,7 +115,7 @@ classification algorithms: MLP, decision tree and Naïve Bayes.
 
 * **Reduction based on LDA** : Reduces the number of columns in the input data by linear discriminant analysis
 
-* **Auto Encoder based Reduction** : 
+* **Auto Encoder based Reduction** :
 
 * **Reduction based on t-SNE** : Create a probability distribution capturing the relationships between points in the high dimensional space and find a low dimensional space that resembles the probability dimension as well as possible
 
@@ -152,3 +152,5 @@ problems.
 * **Accuracies**
 
 * **Bar Chart** :
+
+Il y a 233 colonnes et 50 000 lignes
