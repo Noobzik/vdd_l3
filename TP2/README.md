@@ -119,9 +119,12 @@ classification algorithms: MLP, decision tree and Naïve Bayes.
 
 * **Reduction based on t-SNE** : Create a probability distribution capturing the relationships between points in the high dimensional space and find a low dimensional space that resembles the probability dimension as well as possible
 
-* **Reduction based on High Corr.** :
+* **Reduction based on High Corr.** :  Identifies pairs of columns with a
+high correlation (i.e. greater than a given threshold), and removes one of the two columns for each
+identified pair.
 
-* **Tree Ensemble based Reduction** :
+* **Tree Ensemble based Reduction** :  Generate a large and carefully constructed set of trees against a target attribute and then use each attribute’s
+usage statistics to find the most informative subset of features.
 
 * **Reduction based on PCA** : Reduce all values to those which are the most
 accurate for the PCA method.
@@ -134,7 +137,7 @@ output tables.
 * **Column Selection by Missing Values** : Remove columns with excessive
 values.
 
-* **Column Appender** :
+* **Column Appender** : Takes two tables and quickly combines them by appending the columns of the second table to the first table.
 
 * **Backward Feature Elimination** : Elimine une par une les valeurs les moins
 pertinente en les comparants 2 par 2.
@@ -147,10 +150,12 @@ valeurs pertinente en les comparants 2 par 2.
 * **ROC Curve** : This node draws ROC curves for two-class classification
 problems.
 
-* **Positive class probabilities**
+* **Positive class probabilities** : Select the value from the class column that stands for the "positive" class
 
-* **Accuracies**
+* **Accuracies** :
 
-* **Bar Chart** :
+* **Bar Chart** :  Visualizes one or more aggregated metrics for different data partitions with rectangular bars where the heights are proportional to the metric values.
 
 Il y a 233 colonnes et 50 000 lignes
+
+Du a manque de ressource nous n'avons pas pu executer le workflow, il nous est impossible d'analyser les résultats.
