@@ -56,3 +56,17 @@ Nous remarquons que les classes sont toutes melangées et par conséquent aucune
 b) (cf les figures de l'exercice précédent)
 
 Nous constatons qu'en utilisant un PCA il est plus facile de distinguer les classes de données, c'est donc une méthode a favoriser pour la lecture de données.
+
+# Exercice 5
+
+a) (cf exercice 4)
+
+b) Voici le resultat obtenu avec les clusters :
+
+![figure 8](Figures/cluster1.PNG)
+
+c) Voici le resultat avec PCA
+
+![figure 9](Figures/clusterPCA.PNG)
+
+Dans la méthode Cluster+PCA nous remarquons que les données sont regroupées autour d'un centre alors qu'avec la méthode PCA seule les données sont regroupées par classes
