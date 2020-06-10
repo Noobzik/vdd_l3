@@ -44,3 +44,15 @@ c.d.e)
 
 ![figure 6](Figures/pca4diris.PNG)
 * Ci-dessus la matrice des nuages de point du PCA du data set **Iris** a quatres dimensions.
+
+# Exercice 4
+
+a) Voici toutes les combinaisons de nuage de point que nous pouvons obtenir a partir du data set **Waveform** :
+
+![figure 7](Figures/wave.PNG)
+
+Nous remarquons que les classes sont toutes melangées et par conséquent aucune analyse n'est possible.
+
+b) (cf les figures de l'exercice précédent)
+
+Nous constatons qu'en utilisant un PCA il est plus facile de distinguer les classes de données, c'est donc une méthode a favoriser pour la lecture de données.
