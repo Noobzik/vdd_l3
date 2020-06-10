@@ -1,3 +1,10 @@
+# VDD TP #
+
+| Nom / Prenom   | Numéro Etudiant |
+| -------------- | --------------- |
+| Sheikh Rakib   | 11502605        |
+| Daudin Louise  | 11606555        |
+
 # TP1 Python VDD #
 
 Sur le terminal taper les commandes suivant pour installer scikit
